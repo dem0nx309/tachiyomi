@@ -3,7 +3,7 @@ package eu.kanade.core.util
 import androidx.compose.ui.util.fastForEach
 import java.util.concurrent.ConcurrentHashMap
 import kotlin.contracts.ExperimentalContracts
-import kotlin.contracts.contract //test
+import kotlin.contracts.contract
 
 fun <T : R, R : Any> List<T>.insertSeparators(
     generator: (T?, T?) -> R?,
